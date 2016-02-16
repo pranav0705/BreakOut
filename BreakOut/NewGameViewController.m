@@ -704,7 +704,7 @@
         UILabel *x =[bricks objectAtIndex:j];
         if (CGRectIntersectsRect([ball frame], [x frame]))
         {
-            NSLog(@"inside this loop");
+           // NSLog(@"inside this loop");
             if(!x.isHidden){
                 //YourClass found!!
                 dy = -dy;

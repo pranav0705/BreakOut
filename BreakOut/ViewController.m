@@ -74,7 +74,7 @@
     
     [self.animator addBehavior:gravityBehavior];
     gravityBehavior.action = ^{
-        NSLog(@"%f", self.orangeBall.center.y);
+     //   NSLog(@"%f", self.orangeBall.center.y);
     };
     
     UICollisionBehavior *collisionBehavior = [[UICollisionBehavior alloc] initWithItems:@[self.orangeBall, brick]];
