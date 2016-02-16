@@ -15,6 +15,8 @@
 		812BCCB11C6D20F100991F54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 812BCCAF1C6D20F100991F54 /* LaunchScreen.storyboard */; };
 		812BCCBC1C6D20F100991F54 /* BreakOutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 812BCCBB1C6D20F100991F54 /* BreakOutTests.m */; };
 		812BCCC71C6D20F100991F54 /* BreakOutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 812BCCC61C6D20F100991F54 /* BreakOutUITests.m */; };
+		812BCCD61C6D2DA800991F54 /* NewGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 812BCCD51C6D2DA800991F54 /* NewGameViewController.m */; };
+		81FCFB2C1C72C07F00432C8F /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81FCFB2B1C72C07F00432C8F /* images.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		812BCCC21C6D20F100991F54 /* BreakOutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreakOutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		812BCCC61C6D20F100991F54 /* BreakOutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BreakOutUITests.m; sourceTree = "<group>"; };
 		812BCCC81C6D20F100991F54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		812BCCD41C6D2DA800991F54 /* NewGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewGameViewController.h; sourceTree = "<group>"; };
+		812BCCD51C6D2DA800991F54 /* NewGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewGameViewController.m; sourceTree = "<group>"; };
+		81FCFB2B1C72C07F00432C8F /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,7 @@
 		812BCCA01C6D20F100991F54 /* BreakOut */ = {
 			isa = PBXGroup;
 			children = (
+				81FCFB2B1C72C07F00432C8F /* images.jpg */,
 				812BCCA41C6D20F100991F54 /* AppDelegate.h */,
 				812BCCA51C6D20F100991F54 /* AppDelegate.m */,
 				812BCCA71C6D20F100991F54 /* ViewController.h */,
@@ -110,6 +116,8 @@
 				812BCCAF1C6D20F100991F54 /* LaunchScreen.storyboard */,
 				812BCCB21C6D20F100991F54 /* Info.plist */,
 				812BCCA11C6D20F100991F54 /* Supporting Files */,
+				812BCCD41C6D2DA800991F54 /* NewGameViewController.h */,
+				812BCCD51C6D2DA800991F54 /* NewGameViewController.m */,
 			);
 			path = BreakOut;
 			sourceTree = "<group>";
@@ -244,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				812BCCB11C6D20F100991F54 /* LaunchScreen.storyboard in Resources */,
+				81FCFB2C1C72C07F00432C8F /* images.jpg in Resources */,
 				812BCCAE1C6D20F100991F54 /* Assets.xcassets in Resources */,
 				812BCCAC1C6D20F100991F54 /* Main.storyboard in Resources */,
 			);
@@ -271,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				812BCCA91C6D20F100991F54 /* ViewController.m in Sources */,
+				812BCCD61C6D2DA800991F54 /* NewGameViewController.m in Sources */,
 				812BCCA61C6D20F100991F54 /* AppDelegate.m in Sources */,
 				812BCCA31C6D20F100991F54 /* main.m in Sources */,
 			);
@@ -498,6 +508,7 @@
 				812BCCCD1C6D20F100991F54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		812BCCCE1C6D20F100991F54 /* Build configuration list for PBXNativeTarget "BreakOutTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +517,7 @@
 				812BCCD01C6D20F100991F54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		812BCCD11C6D20F100991F54 /* Build configuration list for PBXNativeTarget "BreakOutUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +526,7 @@
 				812BCCD31C6D20F100991F54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
